@@ -1,9 +1,0 @@
-if action = "Go":
-    
-    try:
-        current_room = rooms[current_room][direction]
-        msg = f"You travel {direction}."
-
-    except:
-        msg = f"You can't go that way." 
-
